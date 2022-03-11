@@ -1,0 +1,55 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.calcBox1{
+
+  position: relative;
+  left: 35vw;
+  height: 55.6vh;
+  width: 25vw;
+  border: 2px solid black;
+}
+
+
+.calcHdg1{
+
+  font-size: 1.8em;
+  position: relative; 
+  left: 38.2vw;
+}
+
+.resultBox1{
+
+  position: absolute;
+  left: -0.75px;
+  height: 8vh;
+  width: 25.1vw;
+  border: 1px solid black;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.oneB{
+
+  height: 8vh;
+  width: 8.3vw;
+  font-size: 1.3em;
+}
+
+.resultBox2{
+
+  position: absolute;
+  left: -0.75px;
+  top: 8.1vh;
+  height: 47vh;
+  width: 25.1vw;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
